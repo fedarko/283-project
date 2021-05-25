@@ -2,7 +2,7 @@
 
 ## `data/` sources
 
-ALl of the files located in this folder are associated with
+All of the files located in this folder are associated with
 [Zhou et al. 2019](https://www.pnas.org/content/116/38/19200).
 
 Most of the files located in this folder were

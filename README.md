@@ -26,7 +26,7 @@ downloaded from the "supplementary files" section on
 
 ## Note about "starting" data
 
-We note that, although a full replication of this work would ideally begin with
-the raw sequencing data, we have begun our work starting with the gene
-frequency tables derived from the sequencing data for the sake of convenience
-(and due to the time constraints associated with this class project).
+We note that, although a full analysis using this data would ideally start from
+scratch with the raw sequencing data, we have instead started our work with the
+gene frequency tables derived from the sequencing data. We have done this for
+the sake of convenience due to the time constraints inherent to this project.

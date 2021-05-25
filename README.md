@@ -7,14 +7,22 @@ ALl of the files located in this folder are associated with
 
 Most of the files located in this folder were
 downloaded from the "supplementary files" section on
-[NCBI GEO (accession number GSE131512)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131512).
+[NCBI GEO (accession number GSE131512)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131512). There are additionally some metadata files we generate.
 
-The `geo_metadata.tsv` file was converted from the `GSE131512_metaData.xlsx` file
-to simplify loading the metadata in scripts; and the `table_s3.tsv` file was
-copied from Table S3 in the supplementary materials of Zhou et al. 2019 to
-simplify mapping sample IDs to their status (C-R, C-N, N). The
-`merged_metadata.tsv` file is created in the `01-MergeMetadata.ipynb` notebook,
-and includes all of the information from the GEO and Table S3 metadata files.
+### Metadata files
+
+- The `geo_metadata.tsv` file was converted from the `GSE131512_metaData.xlsx`
+  file to simplify loading this data in scripts.
+- The `table_s3.tsv` file was copied from Table S3 in the supplementary
+  materials of Zhou et al. 2019 to simplify mapping sample IDs to their status
+  (C-R, C-N, N).
+- The `merged_metadata.tsv` file is created in the `01-MergeMetadata.ipynb`
+  notebook, and includes all of the information from the GEO and Table S3
+  metadata files.
+- The `final_metadata.tsv` file is created in the `02-TrainTestSplit.ipynb`
+  notebook, and includes everything in `merged_metadata.tsv` plus assignments
+  of each sample to training vs. test data. Please see the train/test split
+  notebook for more information.
 
 ## Note about "starting" data
 

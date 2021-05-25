@@ -5,7 +5,7 @@
 The files located in this folder are associated with
 [Zhou et al. 2019](https://www.pnas.org/content/116/38/19200), and were
 downloaded from the "supplementary files" section on
-[NCBI GEO (accession number GSE131512)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131512).
+[NCBI GEO (accession number GSE131512)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131512). (The `.tsv` metadata file was converted from the `.xlsx` metadata file for ease of loading in scripts.)
 
 We note that, although a full replication of this work would ideally begin with
 the raw sequencing data, we have begun our work starting with the gene

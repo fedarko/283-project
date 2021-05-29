@@ -1,5 +1,18 @@
 # CSE 283 / BENG 203 Project: Spring 2021
 
+## Repository structure
+
+### `notebooks/`
+
+Contains Jupyter notebooks that are used in processing the data, generating
+some of the plots, running classifiers, etc.
+
+### `scripts/`
+
+Contains one-off scripts used for various tasks (generating some of the plots,
+computing metrics of the dataset, etc.). The `PCA_tSNE_analysis.R` script was
+written by Sara Rahiminejad.
+
 ## `data/` sources
 
 All of the files located in this folder are associated with

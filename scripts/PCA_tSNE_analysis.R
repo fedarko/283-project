@@ -1,4 +1,5 @@
 # Performing PCA and tSNE to find outliers
+# Script by Sara Rahiminejad
 
 library(ggplot2)
 library(Rtsne)

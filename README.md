@@ -18,9 +18,21 @@ written by Sara Rahiminejad.
 All of the files located in this folder are associated with
 [Zhou et al. 2019](https://www.pnas.org/content/116/38/19200).
 
-Most of the files located in this folder were
+The files prefixed with `GSE131512_` were
 downloaded from the "supplementary files" section on
-[NCBI GEO (accession number GSE131512)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131512). There are additionally some metadata files we generate.
+[NCBI GEO (accession number GSE131512)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131512). Some additional files come from other sources; these are described below.
+
+### `preselectedEnsemblIDList.txt`
+
+This list was downloaded from [this GitHub
+repository](https://github.com/Zhong-Lab-UCSD/course_project_2020), which was
+linked in the course slides.
+This list contains 750 Ensembl IDs, which we understand correspond to the gene
+names listed in Table S5 of the supplementary materials of Zhou et al. 2019.
+
+While we were working on this project, Ensembl was down, so for the sake of
+convenience we just used this list rather than convert the gene names in Table
+S5 to Ensembl IDs ourselves.
 
 ### Metadata files
 

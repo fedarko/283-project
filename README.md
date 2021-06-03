@@ -64,3 +64,15 @@ We note that, although a full analysis using this data would ideally start from
 scratch with the raw sequencing data, we have instead started our work with the
 gene frequency tables derived from the sequencing data. We have done this for
 the sake of convenience due to the time constraints inherent to this project.
+
+## System Requirements
+
+All of the `notebooks/`, with the exception of the CoDaCoRe notebook, are best
+run using a QIIME 2 2020.6 notebook with Songbird installed.
+
+The CoDaCoRe notebook should probably be run from a separate conda environment
+with the py-codacore package installed. See
+https://github.com/egr95/py-codacore.
+
+The python and R scripts in `scripts/` rely on various packages; please consult
+the scripts' first few lines for details.

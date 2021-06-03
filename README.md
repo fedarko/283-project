@@ -10,8 +10,8 @@ some of the plots, running classifiers, etc.
 ### `scripts/`
 
 Contains one-off scripts used for various tasks (generating some of the plots,
-computing metrics of the dataset, etc.). The `PCA_tSNE_analysis.R` script was
-written by Sara Rahiminejad.
+computing metrics of the dataset, etc.). The `PCA_tSNE_analysis.R` and
+`cf_matrix.py` scripts were written by Sara Rahiminejad.
 
 ## `data/` sources
 
